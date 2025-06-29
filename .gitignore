@@ -1,0 +1,30 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+venv*/
+env*/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore log files and temp files
+*.log
+*.swp
+*.swo
+*~
+
+# Ignore JetBrains IDEs (PyCharm, etc.)
+.idea/
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore secrets
+*.pem
+*.key
+*.env
